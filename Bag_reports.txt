@@ -1,0 +1,12 @@
+id
+title or summary
+Environment
+step to reproduce
+expected results
+actual results
+priority
+severity
+preconditions
+attachment
+reporter
+work around
