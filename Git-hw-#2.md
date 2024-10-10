@@ -11,12 +11,12 @@
 * Mobile_testing
 ------------------------------------------------------------
 * перейти по ссылке https://github.com/
-* нажать кнопку "NEW"
+* нажать кнопку [NEW]
 * в поле "Repository name" ввести "branch"
 * отметить галочкой "Add a README file"
-* нажать кнопку "Create repository"
+* нажать кнопку [Create repository]
 * перейти по ссылке https://github.com/MaximSinyavsky/branch
-* нажать кнопку "code"
+* нажать кнопку [code]
 * в вкладке SSH скопировать SSH-key
 * в окне gitbush ввести:
 
