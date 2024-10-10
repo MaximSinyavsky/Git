@@ -1,13 +1,14 @@
-Git Homework №1
+# Git Homework №1
 
-JSON
+## JSON
+
 4. Создать внешний репозиторий c названием JSON.
 
- 	-перейти по ссылке https://github.com/
- 	-нажать кнопку "NEW"
- 	-в поле "Repository name" ввести "JSON"
- 	-отметить галочкой "Add a README file"
- 	-нажать кнопку "Create repository"
+* перейти по ссылке https://github.com/
+* нажать кнопку "NEW"
+* в поле "Repository name" ввести "JSON"
+* отметить галочкой "Add a README file"
+* нажать кнопку "Create repository"
 5. Клонировать репозиторий JSON на локальный компьютер.
 
 		-перейти по ссылке https://github.com/MaximSinyavsky/JSON
@@ -96,60 +97,82 @@ JSON
 		git add .
 		git commit -m "add preferences and skills"
 		git push
- 17. На веб интерфейсе создать файл bug_report.json.
- 	-перейти по ссылке https://github.com/MaximSinyavsky/JSON
- 	-нажать кнопку "add file"
- 	-из развернувшегося списка выбрать "Create new file"
- 	-в поле "name your file..." ввести bug_report.json
- 18. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 	-в поле "Commit new file" ввести "create new file"
- 	-нажать кнопку "Commit new file"
- 19. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
- 	-перейти по ссылке https://github.com/MaximSinyavsky/JSON/blob/main/bug_report.json
- 	-нажать кнопу "Edit this file"
- 			{
-		  "ID":"1",
-		  "title":"Не Работает кнопка оплаты",
-		  "step to reproduce":"пройти по ссылке..., добавить товар в корзину, перейти в корзину, нажать кнопку для оплаты....",
-		  "Environment":"Операционная система Win 10, browser Chrome 10.1",
-		  "expected result":"Прошла оплата",
-		  "actual result":"Ничего не происходит, деньги не снимаются",
-		  "Reporter":"Синявский Максим",
-		  "severity":"Blocker",
-		  "priority":"High",
-		  "attachment":"Прикрепленные скриншоты"
-			}
- 20. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-  	-в поле "Commit new file" ввести "update new file"
- 	-нажать кнопку "Commit new file"
- 21. Синхронизировать внешний и локальный репозиторий JSON
-	$ git fetch
-	$ git pull
+
+16. На веб интерфейсе создать файл bug_report.json.
+
+* перейти по ссылке https://github.com/MaximSinyavsky/JSON
+* нажать кнопку "add file"
+* из развернувшегося списка выбрать "Create new file"
+* в поле "name your file..." ввести bug_report.json
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+* в поле "Commit new file" ввести "create new file"
+* нажать кнопку "Commit new file"
+
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
+* перейти по ссылке https://github.com/MaximSinyavsky/JSON/blob/main/bug_report.json
+* нажать кнопу "Edit this file"
+
+		{
+		"ID":"1",
+		"title":"Не Работает кнопка оплаты",
+		"step to reproduce":"пройти по ссылке..., добавить товар в корзину, перейти в корзину, нажать кнопку для оплаты....",
+		"Environment":"Операционная система Win 10, browser Chrome 10.1",
+		"expected result":"Прошла оплата",
+		"actual result":"Ничего не происходит, деньги не снимаются",
+		"Reporter":"Синявский Максим",
+		"severity":"Blocker",
+		"priority":"High",
+		"attachment":"Прикрепленные скриншоты"
+		}
+
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+* в поле "Commit new file" ввести "update new file"
+* нажать кнопку "Commit new file"
+
+20. Синхронизировать внешний и локальный репозиторий JSON
+
+		git fetch
+		git pull
 	
-XML
- 21. Создать внешний репозиторий c названием XML.
-  	-перейти по ссылке https://github.com/
- 	-нажать кнопку "NEW"
- 	-в поле "Repository name" ввести "XML"
- 	-отметить галочкой "Add a README file"
- 	-нажать кнопку "Create repository"
- 22. Клонировать репозиторий XML на локальный компьютер.
-  	-перейти по ссылке https://github.com/MaximSinyavsky/XML
- 	-нажать кнопку "code"
- 	-в вкладке https скопировать URL
- 	-в окне gitbush ввести:
- 	$ git clone https://github.com/MaximSinyavsky/XML.git
- 23. Внутри локального XML создать файл “new.xml”.
- 	$ > new.xml
- 24. Добавить файл под гит.
- 	$ git add new.xml
- 25. Закоммитить файл.
- 	$ git commit -m "add new.xml"	
- 26. Отправить файл на внешний GitHub репозиторий.
- 	$ git push
- 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-  	$ vim new.json
- 		-нажимаем "i"
+## XML
+
+21. Создать внешний репозиторий c названием XML.
+
+* перейти по ссылке https://github.com/
+* нажать кнопку "NEW"
+* в поле "Repository name" ввести "XML"
+* отметить галочкой "Add a README file"
+* нажать кнопку "Create repository"
+
+22. Клонировать репозиторий XML на локальный компьютер.
+
+* перейти по ссылке https://github.com/MaximSinyavsky/XML
+* нажать кнопку "code"
+* в вкладке https скопировать URL
+* в окне gitbush ввести:
+
+		git clone https://github.com/MaximSinyavsky/XML.git
+
+23. Внутри локального XML создать файл “new.xml”.
+
+		> new.xml
+24. Добавить файл под гит.
+
+		git add new.xml
+25. Закоммитить файл.
+
+		git commit -m "add new.xml"	
+26. Отправить файл на внешний GitHub репозиторий.
+
+		git push
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+		vim new.xml
+		-нажимаем "i"
 		<?xml version="1.0" encoding="UTF-8"?>
 			<new>
 				<name>My name is Maxim.</name>
@@ -158,15 +181,20 @@ XML
 				<salary>Desired salary is 1000$.</salary>
 			</new>
 		-нажимаем "esc", пишим ":wq", нажимаем "enter"
- 28. Отправить изменения на внешний репозиторий.
-  	$ git commit -am "update new.xml"
-	$ git push
- 29. Создать файл preferences.xml
-  	$ > preferences.xml
- 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-  		$ vim preferences.json
- 		-нажимаем "i"
-	 		<?xml version="1.0" encoding="UTF-8"?>	
+
+28. Отправить изменения на внешний репозиторий.
+
+		git commit -am "update new.xml"
+		git push
+
+29. Создать файл preferences.xml
+
+		> preferences.xml
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+
+		vim preferences.json
+		-нажимаем "i"
+		<?xml version="1.0" encoding="UTF-8"?>	
 			 	<preferences>
 					<muvie>My favorite movie is Avengers.</muvie>
 					<series>My favorite series is Supernatural.</series> 
@@ -175,9 +203,11 @@ XML
 					<country>I want to visit Italy.</country>
 				</preferences>
 		-нажимаем "esc", пишим ":wq", нажимаем "enter"
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
- 	  	$ vim skills.json
- 		-нажимаем "i"
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+
+		vim skills.json
+		-нажимаем "i"
 			<?xml version="1.0" encoding="UTF-8"?>
 			<skills> 
 				<title>В рамках данного курса будут изучены:</title>
@@ -210,22 +240,32 @@ XML
 					<skills27>Python. (Изучение основ. Создание клиент серверного приложения)</skills27>
 			</skills>
 		-нажимаем "esc", пишим ":wq", нажимаем "enter"
- 32. Сделать коммит в одну строку.
-	$ git add . && git commit -m "add preferences and skills xml"
- 33. Отправить сразу 2 файла на внешний репозиторий.
- 	$ git push
- 34. На веб интерфейсе создать файл bug_report.xml.
-  	-перейти по ссылке https://github.com/MaximSinyavsky/XML
- 	-нажать кнопку "add file"
- 	-из развернувшегося списка выбрать "Create new file"
- 	-в поле "name your file..." ввести bug_report.xml
- 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 	-в поле "Commit new file" ввести "create new file"
- 	-нажать кнопку "Commit new file"
- 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
- 	-перейти по ссылке https://github.com/MaximSinyavsky/XML/blob/main/bug_report.xml
- 	-нажать кнопу "Edit this file"
-		<?xml version="1.0" encoding="UTF-8"?>
+
+32. Сделать коммит в одну строку.
+
+		git add . && git commit -m "add preferences and skills xml"
+
+33. Отправить сразу 2 файла на внешний репозиторий.
+
+		git push
+34. На веб интерфейсе создать файл bug_report.xml.
+
+* перейти по ссылке https://github.com/MaximSinyavsky/XML
+* нажать кнопку "add file"
+* из развернувшегося списка выбрать "Create new file"
+* в поле "name your file..." ввести bug_report.xml
+
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+* в поле "Commit new file" ввести "create new file"
+* нажать кнопку "Commit new file"
+
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+
+* перейти по ссылке https://github.com/MaximSinyavsky/XML/blob/main/bug_report.xml
+* нажать кнопу "Edit this file"
+
+  		<?xml version="1.0" encoding="UTF-8"?>
 		  <XML>
 		    <id>1</id> 
 		    <title or summary>Не работает кнопка оплаты</title or summary>
@@ -239,14 +279,19 @@ XML
 		    <work around>нет</work around>
 		    <reporter>Синявский Максим</reporter>
 		  </XML>
- 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-   	-в поле "Commit new file" ввести "update new file"
- 	-нажать кнопку "Commit new file"
- 38. Синхронизировать внешний и локальный репозиторий XML
- 	$ git fetch
-	$ git pull
 
-TXT
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+* в поле "Commit new file" ввести "update new file"
+* нажать кнопку "Commit new file"
+
+38. Синхронизировать внешний и локальный репозиторий XML
+
+		git fetch
+		git pull
+
+# TXT
+
  39. Создать внешний репозиторий c названием TXT.
   	-перейти по ссылке https://github.com/
  	-нажать кнопку "NEW"
