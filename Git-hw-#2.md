@@ -1,22 +1,25 @@
 # Git Homework №2
-
+------------------------------------------------------------
 1. На локальном репозитории сделать ветки для:
-- Postman
-- Jmeter
-- CheckLists
-- Bag_Reports
-- SQL
-- Charles
-- Mobile_testing
- 	-перейти по ссылке https://github.com/
- 	-нажать кнопку "NEW"
- 	-в поле "Repository name" ввести "branch"
- 	-отметить галочкой "Add a README file"
- 	-нажать кнопку "Create repository"
- 	-перейти по ссылке https://github.com/MaximSinyavsky/branch
- 	-нажать кнопку "code"
- 	-в вкладке SSH скопировать SSH-key
- 	-в окне gitbush ввести:
+
+* Postman
+* Jmeter
+* CheckLists
+* Bag_Reports
+* SQL
+* Charles
+* Mobile_testing
+------------------------------------------------------------
+* перейти по ссылке https://github.com/
+* нажать кнопку "NEW"
+* в поле "Repository name" ввести "branch"
+* отметить галочкой "Add a README file"
+* нажать кнопку "Create repository"
+* перейти по ссылке https://github.com/MaximSinyavsky/branch
+* нажать кнопку "code"
+* в вкладке SSH скопировать SSH-key
+* в окне gitbush ввести:
+
  		$ git clone git@github.com:MaximSinyavsky/branch.git
  		$ git branch Postman
 		$ git branch Jmeter
@@ -25,8 +28,11 @@
 		$ git branch SQL
 		$ git branch Charles
 		$ git branch Mobile_testing
+
 2. Запушить все ветки на внешний репозиторий
-	$ git push -u origin --all
+
+		git push -u origin --all
+
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 	$ git checkout Bag_Reports
 	$ vim Bag_reports.txt
