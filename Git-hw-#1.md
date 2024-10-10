@@ -16,7 +16,7 @@
 * -в вкладке https скопировать URL
 * в окне gitbush ввести:
 
-  		git clone https://github.com/MaximSinyavsky/JSON.git
+		git clone https://github.com/MaximSinyavsky/JSON.git
 6. Внутри локального JSON создать файл “new.json”.
 
 		> new.json
@@ -144,15 +144,15 @@
 21. Создать внешний репозиторий c названием XML.
 
 * перейти по ссылке https://github.com/
-* нажать кнопку "NEW"
+* нажать кнопку [NEW]
 * в поле "Repository name" ввести "XML"
 * отметить галочкой "Add a README file"
-* нажать кнопку "Create repository"
+* нажать кнопку [Create repository]
 
 22. Клонировать репозиторий XML на локальный компьютер.
 
 * перейти по ссылке https://github.com/MaximSinyavsky/XML
-* нажать кнопку "code"
+* нажать кнопку [code]
 * в вкладке https скопировать URL
 * в окне gitbush ввести:
 
@@ -252,19 +252,19 @@
 34. На веб интерфейсе создать файл bug_report.xml.
 
 * перейти по ссылке https://github.com/MaximSinyavsky/XML
-* нажать кнопку "add file"
+* нажать кнопку [add file]
 * из развернувшегося списка выбрать "Create new file"
 * в поле "name your file..." ввести bug_report.xml
 
 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
 * в поле "Commit new file" ввести "create new file"
-* нажать кнопку "Commit new file"
+* нажать кнопку [Commit new file]
 
 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
 
 * перейти по ссылке https://github.com/MaximSinyavsky/XML/blob/main/bug_report.xml
-* нажать кнопу "Edit this file"
+* нажать кнопу [Edit this file]
 
   		<?xml version="1.0" encoding="UTF-8"?>
 		  <XML>
@@ -284,7 +284,7 @@
 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
 * в поле "Commit new file" ввести "update new file"
-* нажать кнопку "Commit new file"
+* нажать кнопку [Commit new file]
 
 38. Синхронизировать внешний и локальный репозиторий XML
 
@@ -296,15 +296,15 @@
  39. Создать внешний репозиторий c названием TXT.
 
 * перейти по ссылке https://github.com/
-* нажать кнопку "NEW"
+* нажать кнопку [NEW]
 * в поле "Repository name" ввести "TXT"
 * отметить галочкой "Add a README file"
-* нажать кнопку "Create repository"
+* нажать кнопку [Create repository]
 
 40. Клонировать репозиторий TXT на локальный компьютер.
 
 * перейти по ссылке https://github.com/MaximSinyavsky/TXT
-* нажать кнопку "code"
+* нажать кнопку [code]
 * в вкладке https скопировать URL
 * в окне gitbush ввести:
 
@@ -399,18 +399,18 @@
 52. На веб интерфейсе создать файл bug_report.txt.
 
 * перейти по ссылке https://github.com/MaximSinyavsky/TXT
-* нажать кнопку "add file"
+* нажать кнопку [add file]
 * из развернувшегося списка выбрать "Create new file"
 * в поле "name your file..." ввести bug_report.txt
 
 53. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 * в поле "Commit new file" ввести "create new file"
-* нажать кнопку "Commit new file"
+* нажать кнопку [Commit new file]
 
 54. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
 
 * перейти по ссылке https://github.com/MaximSinyavsky/TXT/blob/main/bug_report.txt
-* нажать кнопу "Edit this file"
+* нажать кнопу [Edit this file]
 
   		id -1 
 			titles or summary- Не работает кнопка оплаты
@@ -427,7 +427,7 @@
 55. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
 * в поле "Commit new file" ввести "update new file"
-* нажать кнопку "Commit new file"
+* нажать кнопку [Commit new file]
 
 56. Синхронизировать внешний и локальный репозиторий TXT
 
