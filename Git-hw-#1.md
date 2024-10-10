@@ -1,97 +1,110 @@
 Git Homework №1
 
 JSON
- 4. Создать внешний репозиторий c названием JSON.
+4. Создать внешний репозиторий c названием JSON.
+
  	-перейти по ссылке https://github.com/
  	-нажать кнопку "NEW"
  	-в поле "Repository name" ввести "JSON"
  	-отметить галочкой "Add a README file"
  	-нажать кнопку "Create repository"
- 5. Клонировать репозиторий JSON на локальный компьютер.
- 	-перейти по ссылке https://github.com/MaximSinyavsky/JSON
- 	-нажать кнопку "code"
- 	-в вкладке https скопировать URL
- 	-в окне gitbush ввести:
- 	$ git clone https://github.com/MaximSinyavsky/JSON.git
- 6. Внутри локального JSON создать файл “new.json”.
- 	$ > new.json
- 7. Добавить файл под гит.
- 	$ git add new.json
- 8. Закоммитить файл.
- 	$ git commit -m "add new.json"
- 9. Отправить файл на внешний GitHub репозиторий.
- 	$ git push
- 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
- 	$ vim new.json
- 		-нажимаем "i"
- 		{
-    		"Name": "Maxim",
-    		"Age": "30",
-    		"Amount_pets": "1",
-    		"Desired_salary": "1000$"
+5. Клонировать репозиторий JSON на локальный компьютер.
+
+		-перейти по ссылке https://github.com/MaximSinyavsky/JSON
+		-нажать кнопку "code"
+		-в вкладке https скопировать URL
+		-в окне gitbush ввести:
+		git clone https://github.com/MaximSinyavsky/JSON.git
+6. Внутри локального JSON создать файл “new.json”.
+
+		> new.json
+7. Добавить файл под гит.
+
+		git add new.json
+8. Закоммитить файл.
+
+		git commit -m "add new.json"
+9. Отправить файл на внешний GitHub репозиторий.
+
+		git push
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+
+		vim new.json
+		-нажимаем "i"
+		{
+		"Name": "Maxim",
+		"Age": "30",
+		"Amount_pets": "1",
+		"Desired_salary": "1000$"
 		}
 		-нажимаем "esc", пишим ":wq", нажимаем "enter"
- 11. Отправить изменения на внешний репозиторий.
- 	$ git commit -am "update new.json"
-	$ git push
- 12. Создать файл preferences.json
- 	$ > preferences.json
- 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
-  		$ vim preferences.json
- 		-нажимаем "i"
+11. Отправить изменения на внешний репозиторий.
+
+		git commit -am "update new.json"
+		git push
+12. Создать файл preferences.json
+
+		> preferences.json
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+
+		vim preferences.json
+		-нажимаем "i"
 		{
-	    "Muvie": "Avengers",
-	    "Series": "Supernatural",
-	    "Food": "Meat",
-	    "Season": "Summer",
-	    "Country": "Italy"
-	    }
+		"Muvie": "Avengers",
+		"Series": "Supernatural",
+		"Food": "Meat",
+		"Season": "Summer",
+		"Country": "Italy"
+		}
 		-нажимаем "esc", пишим ":wq", нажимаем "enter"
- 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
-	  	$ vim skills.json
- 		-нажимаем "i"
-	 		{
-		    "Skills_1": "Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC",
-		    "Skills_2": "Что такое клиент-серверная архитектура",
-		    "Skills_3": "HTTP Методы запросов на сервер",
-		    "Skills_4": "Коды ответов HTTP сервера",
-		    "Skills_5": "Структуры HTTP запросов и ответов",
-		    "Skills_6": "Что такое JSON, XML. Их структура",
-		    "Skills_7": "Тестирование API через Postman (JS, автотесты API)",
-		    "Skills_8": "Снятие и чтение логов c внешнего сервера",
-		    "Skills_9": "Снифинг http web трафика через Charles и Fiddler",
-		    "Skills_10": "Dev Tools веб браузеров (Google Chrome, FireFox)",
-		    "Skills_11": "Мобильное тестирование",
-		    "Skills_12": "Особенность iOS, Android, гайдлайны",
-		    "Skills_13": "Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят)",
-		    "Skills_14": "Сборка Android приложений на Android Studio.",
-		    "Skills_15": "ADB (управление андройд девайсами)",
-		    "Skills_16": "Настройка прокси и vpn на iOS и Android",
-		    "Skills_17": "Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android",
-		    "Skills_18": "Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)",
-		    "Skills_19": "Основы bash скриптинг, автоматизация рутинных задач на сервере",
-		    "Skills_20": "Доступ к удалённым серверам",
-		    "Skills_21": "Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
-		    "Skills_22": "База данных Postgres (установка, настройка и использование)",
-		    "Skills_23": "Нереляционная база данных Redis (установка, настройка и использование)",
-		    "Skills_24": "Нагрузочное тестирование в Jmeter",
-		    "Skills_25": "Методология разработки Scrum",
-		    "Skills_26": "Python. (Изучение основ. Создание клиент серверного приложения)"
-			}
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+
+		vim skills.json
+		-нажимаем "i"
+			 		{
+				    "Skills_1": "Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC",
+				    "Skills_2": "Что такое клиент-серверная архитектура",
+				    "Skills_3": "HTTP Методы запросов на сервер",
+				    "Skills_4": "Коды ответов HTTP сервера",
+				    "Skills_5": "Структуры HTTP запросов и ответов",
+				    "Skills_6": "Что такое JSON, XML. Их структура",
+				    "Skills_7": "Тестирование API через Postman (JS, автотесты API)",
+				    "Skills_8": "Снятие и чтение логов c внешнего сервера",
+				    "Skills_9": "Снифинг http web трафика через Charles и Fiddler",
+				    "Skills_10": "Dev Tools веб браузеров (Google Chrome, FireFox)",
+				    "Skills_11": "Мобильное тестирование",
+				    "Skills_12": "Особенность iOS, Android, гайдлайны",
+				    "Skills_13": "Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят)",
+				    "Skills_14": "Сборка Android приложений на Android Studio.",
+				    "Skills_15": "ADB (управление андройд девайсами)",
+				    "Skills_16": "Настройка прокси и vpn на iOS и Android",
+				    "Skills_17": "Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android",
+				    "Skills_18": "Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)",
+				    "Skills_19": "Основы bash скриптинг, автоматизация рутинных задач на сервере",
+				    "Skills_20": "Доступ к удалённым серверам",
+				    "Skills_21": "Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
+				    "Skills_22": "База данных Postgres (установка, настройка и использование)",
+				    "Skills_23": "Нереляционная база данных Redis (установка, настройка и использование)",
+				    "Skills_24": "Нагрузочное тестирование в Jmeter",
+				    "Skills_25": "Методология разработки Scrum",
+				    "Skills_26": "Python. (Изучение основ. Создание клиент серверного приложения)"
+					}
 		-нажимаем "esc", пишим ":wq", нажимаем "enter"
- 15. Отправить сразу 2 файла на внешний репозиторий.
- 	$ git add .
- 	$ git commit -m "add preferences and skills"
-	$ git push
- 16. На веб интерфейсе создать файл bug_report.json.
+ 
+15. Отправить сразу 2 файла на внешний репозиторий.
+
+		git add .
+		git commit -m "add preferences and skills"
+		git push
+ 17. На веб интерфейсе создать файл bug_report.json.
  	-перейти по ссылке https://github.com/MaximSinyavsky/JSON
  	-нажать кнопку "add file"
  	-из развернувшегося списка выбрать "Create new file"
  	-в поле "name your file..." ввести bug_report.json
- 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  	-в поле "Commit new file" ввести "create new file"
  	-нажать кнопку "Commit new file"
- 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ 19. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
  	-перейти по ссылке https://github.com/MaximSinyavsky/JSON/blob/main/bug_report.json
  	-нажать кнопу "Edit this file"
  			{
@@ -106,10 +119,10 @@ JSON
 		  "priority":"High",
 		  "attachment":"Прикрепленные скриншоты"
 			}
- 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 20. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
   	-в поле "Commit new file" ввести "update new file"
  	-нажать кнопку "Commit new file"
- 20. Синхронизировать внешний и локальный репозиторий JSON
+ 21. Синхронизировать внешний и локальный репозиторий JSON
 	$ git fetch
 	$ git pull
 	
