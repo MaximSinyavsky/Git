@@ -5,17 +5,18 @@
 4. Создать внешний репозиторий c названием JSON.
 
 * перейти по ссылке https://github.com/
-* нажать кнопку "NEW"
+* нажать кнопку [NEW]
 * в поле "Repository name" ввести "JSON"
 * отметить галочкой "Add a README file"
-* нажать кнопку "Create repository"
+* нажать кнопку [Create repository]
 5. Клонировать репозиторий JSON на локальный компьютер.
 
-		-перейти по ссылке https://github.com/MaximSinyavsky/JSON
-		-нажать кнопку "code"
-		-в вкладке https скопировать URL
-		-в окне gitbush ввести:
-		git clone https://github.com/MaximSinyavsky/JSON.git
+* перейти по ссылке https://github.com/MaximSinyavsky/JSON
+* нажать кнопку [code]
+* -в вкладке https скопировать URL
+* в окне gitbush ввести:
+
+  		git clone https://github.com/MaximSinyavsky/JSON.git
 6. Внутри локального JSON создать файл “new.json”.
 
 		> new.json
@@ -101,19 +102,19 @@
 16. На веб интерфейсе создать файл bug_report.json.
 
 * перейти по ссылке https://github.com/MaximSinyavsky/JSON
-* нажать кнопку "add file"
+* нажать кнопку [add file]
 * из развернувшегося списка выбрать "Create new file"
 * в поле "name your file..." ввести bug_report.json
 
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
 * в поле "Commit new file" ввести "create new file"
-* нажать кнопку "Commit new file"
+* нажать кнопку [Commit new file]
 
 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 
 * перейти по ссылке https://github.com/MaximSinyavsky/JSON/blob/main/bug_report.json
-* нажать кнопу "Edit this file"
+* нажать кнопу [Edit this file]
 
 		{
 		"ID":"1",
@@ -131,7 +132,7 @@
 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
 * в поле "Commit new file" ввести "update new file"
-* нажать кнопку "Commit new file"
+* нажать кнопку [Commit new file]
 
 20. Синхронизировать внешний и локальный репозиторий JSON
 
