@@ -1,4 +1,4 @@
-Git Homework №2
+# Git Homework №2
 
 1. На локальном репозитории сделать ветки для:
 - Postman
