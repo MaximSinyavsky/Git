@@ -293,50 +293,69 @@
 # TXT
 
  39. Создать внешний репозиторий c названием TXT.
-  	-перейти по ссылке https://github.com/
- 	-нажать кнопку "NEW"
- 	-в поле "Repository name" ввести "TXT"
- 	-отметить галочкой "Add a README file"
- 	-нажать кнопку "Create repository"
+
+* перейти по ссылке https://github.com/
+* нажать кнопку "NEW"
+* в поле "Repository name" ввести "TXT"
+* отметить галочкой "Add a README file"
+* нажать кнопку "Create repository"
+
 40. Клонировать репозиторий TXT на локальный компьютер.
-  	-перейти по ссылке https://github.com/MaximSinyavsky/TXT
- 	-нажать кнопку "code"
- 	-в вкладке https скопировать URL
- 	-в окне gitbush ввести:
- 	$ git clone https://github.com/MaximSinyavsky/TXT.git
- 41. Внутри локального TXT создать файл “new.txt”.
-  	$ > new.txt
- 42. Добавить файл под гит.
- 	$ git add new.txt
- 43. Закоммитить файл.
- 	$ git commit -m "add new.txt"
- 44. Отправить файл на внешний GitHub репозиторий.
- 	$ git push
- 45. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
-  	$ vim new.json
- 		-нажимаем "i"
+
+* перейти по ссылке https://github.com/MaximSinyavsky/TXT
+* нажать кнопку "code"
+* в вкладке https скопировать URL
+* в окне gitbush ввести:
+
+		git clone https://github.com/MaximSinyavsky/TXT.git
+
+41. Внутри локального TXT создать файл “new.txt”.
+
+		> new.txt
+42. Добавить файл под гит.
+
+		git add new.txt
+43. Закоммитить файл.
+
+		git commit -m "add new.txt"
+44. Отправить файл на внешний GitHub репозиторий.
+
+		git push
+
+45. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+
+		vim new.json
+		-нажимаем "i"
  		My name is Maxim. 
 		I am 30 years old. 
 		I have one pet. 
 		My cat's name is Vegas. 
 		Desired salary is 1000$.
 		-нажимаем "esc", пишим ":wq", нажимаем "enter"
- 46. Отправить изменения на внешний репозиторий.
-  	$ git commit -am "Update new.txt"
-	$ git push
- 47. Создать файл preferences.txt
- 	$ > preferences.txt
- 48. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
-   	$ vim preferences.txt
- 		-нажимаем "i"
+
+46. Отправить изменения на внешний репозиторий.
+
+		git commit -am "Update new.txt"
+		git push
+
+47. Создать файл preferences.txt
+
+		> preferences.txt
+
+48. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+
+		vim preferences.txt
+		-нажимаем "i"
 		My favorite movie is Avengers. 
 		My favorite series is Supernatural. 
 		My favorite food is meat. 
 		My favorite time of year is summer. 
 		I want to visit Italy.
 		-нажимаем "esc", пишим ":wq", нажимаем "enter"
- 49. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
-    	$ vim skills.txt
+
+49. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+
+		vim skills.txt
  		-нажимаем "i"
 		 		В рамках данного курса будут изучены:
 		1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.
@@ -367,35 +386,49 @@
 		26. Методология разработки Scrum.
 		27. Python. (Изучение основ. Создание клиент серверного приложения)
 		-нажимаем "esc", пишим ":wq", нажимаем "enter"
- 50. Сделать коммит в одну строку.
- 	$ git add . && git commit -m "add preferences and skils txt"
- 51. Отправить сразу 2 файла на внешний репозиторий.
- 	$ git push
- 52. На веб интерфейсе создать файл bug_report.txt.
- 	-перейти по ссылке https://github.com/MaximSinyavsky/TXT
- 	-нажать кнопку "add file"
- 	-из развернувшегося списка выбрать "Create new file"
- 	-в поле "name your file..." ввести bug_report.txt
- 53. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-  	-в поле "Commit new file" ввести "create new file"
- 	-нажать кнопку "Commit new file"
- 54. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
-  	-перейти по ссылке https://github.com/MaximSinyavsky/TXT/blob/main/bug_report.txt
- 	-нажать кнопу "Edit this file"
-		id -1 
-		titles or summary- Не работает кнопка оплаты
-		environment- Операционная система Win 10, browser Chrome 10.1
-		step to reproduce- пройти по ссылке..., добавить товар в корзину, перейти в корзину, нажать кнопку для оплаты....
-		expected results-Прошла оплата
-		actual results-Ничего не происходит, деньги не списываются 
-		priority-high
-		severity-blocker
-		attachment-скриншоты
-		work around-нет
-		reporter-Максим
- 55. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-    	-в поле "Commit new file" ввести "update new file"
- 	-нажать кнопку "Commit new file"
- 56. Синхронизировать внешний и локальный репозиторий TXT
-  	$ git fetch
-	$ git pull
+ 
+50. Сделать коммит в одну строку.
+
+		git add . && git commit -m "add preferences and skils txt"
+
+51. Отправить сразу 2 файла на внешний репозиторий.
+
+		git push
+
+52. На веб интерфейсе создать файл bug_report.txt.
+
+* перейти по ссылке https://github.com/MaximSinyavsky/TXT
+* нажать кнопку "add file"
+* из развернувшегося списка выбрать "Create new file"
+* в поле "name your file..." ввести bug_report.txt
+
+53. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+* в поле "Commit new file" ввести "create new file"
+* нажать кнопку "Commit new file"
+
+54. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+
+* перейти по ссылке https://github.com/MaximSinyavsky/TXT/blob/main/bug_report.txt
+* нажать кнопу "Edit this file"
+
+  		id -1 
+			titles or summary- Не работает кнопка оплаты
+			environment- Операционная система Win 10, browser Chrome 10.1
+			step to reproduce- пройти по ссылке..., добавить товар в корзину, перейти в корзину, нажать кнопку для оплаты....
+			expected results-Прошла оплата
+			actual results-Ничего не происходит, деньги не списываются 
+			priority-high
+			severity-blocker
+			attachment-скриншоты
+			work around-нет
+			reporter-Максим
+
+55. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+* в поле "Commit new file" ввести "update new file"
+* нажать кнопку "Commit new file"
+
+56. Синхронизировать внешний и локальный репозиторий TXT
+
+		git fetch
+		git pull
